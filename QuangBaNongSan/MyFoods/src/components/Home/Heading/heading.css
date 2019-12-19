@@ -1,0 +1,13 @@
+.productHeading{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-image: url("../../../assets/images/banner/bg-heading.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.productHeading h1{
+    font-weight: 500;
+    font-size: 2 rem;
+}

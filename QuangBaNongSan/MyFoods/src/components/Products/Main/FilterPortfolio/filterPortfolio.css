@@ -1,0 +1,15 @@
+.filterStyle{
+    box-shadow: 3px 3px 10px gray;
+}
+.filterStyle h1{
+    color: #ffffff;
+    background-color: #42a765;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.filterStyleUl{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+}

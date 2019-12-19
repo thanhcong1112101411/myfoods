@@ -1,0 +1,11 @@
+.tabStyle{
+    background-color: #3b9f5e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.tabStyle a{
+    color: #fff;
+    font-weight: 500;
+}

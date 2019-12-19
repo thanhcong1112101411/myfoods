@@ -1,0 +1,30 @@
+.NavigationItems{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+.NavigationItems a:hover{
+    text-decoration: none;
+}
+@media (max-width: 1086px){
+    .NavigationItems{
+        display: block;
+    }
+    .NavigationItems li a{
+        border-radius: 0px;
+        width: 100%;
+        display: inline-block;
+        
+    }
+    .NavigationItems li:last-child a{
+        background-color: #fff;
+        color: #77838f !important;
+    }
+    .NavigationItems li:last-child a:hover{
+        background-color: #3b9f5e;
+        color: #fff !important;
+        font-weight: 500;
+        box-sizing: border-box;
+    }
+    
+}

@@ -1,0 +1,36 @@
+.contentTop{
+    margin-top: 10px;
+}
+.contentTopBg>div{
+    box-shadow: 3px 3px 10px gray;
+}
+.contentTopBg>div>div{
+    padding: 0;
+}
+.contentTopItem{
+    text-align: center;
+    border-left: 1px solid #ededed;
+    padding: 28px 0px;
+    margin: 0;
+}
+.contentTopBg>div>div:first-child .contentTopItem{
+    border-left: 0;
+}
+.contentTopItem span{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #3b9f5e;
+}
+.contentTopItem strong{
+    font-size: 22px;
+}
+.contentTopItem p{
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}
+@media (max-width: 994px){
+    .contentTop{
+        display: none;
+    }
+}

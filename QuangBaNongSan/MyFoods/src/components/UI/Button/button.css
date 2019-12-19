@@ -1,0 +1,14 @@
+.button{
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 20px;
+    border: 0;
+    border-radius: 3px;
+}
+.button:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+.update{
+    background-color: green;
+}

@@ -1,0 +1,20 @@
+.itemStyle{
+    font-size: 17px;
+    font-weight: 500;
+}
+.itemStyle button{
+    border: 0;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+.itemStyle button:hover{
+    font-size: 18px;
+}
+.itemStyle .deletebtn{
+    color: red;
+}
+.itemStyle .updatebtn{
+    color: green;
+    margin-top: 5px;
+}

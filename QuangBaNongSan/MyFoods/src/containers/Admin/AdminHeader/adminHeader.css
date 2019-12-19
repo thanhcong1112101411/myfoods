@@ -1,0 +1,156 @@
+.adminHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.companyNav{
+    padding: 10px 30px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #f97c19;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.companyNav button{
+    border:0;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 22px;
+}
+.companyNav button:hover{
+    font-size: 23px;
+}
+.menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+.menu a:hover{
+    font-size: 19px;
+    text-decoration: none !important;
+    color: #fff;
+}
+.menu .home{
+    margin-right: 10px;
+}
+
+.listfunction ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: #f97c19;
+   
+}
+.listfunction>ul{
+    height: 100%;
+    position: fixed;
+    top: 71px;
+    left: 0;
+    width: 310px;
+    padding-bottom: 100px;
+    overflow-y: auto;
+}
+.listfunction>ul::-webkit-scrollbar{
+    display: none;
+}
+.listfunction>ul .gray{
+    color: green;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.listfunction a{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.listfunction a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: block;
+}
+.active{
+    font-weight: 700;
+    color: green;
+}
+.listfunction a:active{
+    border: 0 !important;
+}
+.listfunction ul span{
+    margin-right: 20px;
+}
+.listfunction .subList{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.listfunction .subList li{
+    font-size: 16px;
+    color: #ffffff;
+}
+.listfunction .subList li:first-child{
+    font-size: 40px;
+}
+.listfunction .subList li a{
+    border: 0;
+}
+.main .main-bg{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main .item{
+    margin-top: 71px;
+}
+.visible{
+    display: none;
+}
+.listfunction button{
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+.listfunction button:hover{
+    background-color: #fff;
+    color: red;
+}

@@ -1,0 +1,41 @@
+.alert{
+    border: 3px solid red;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    right: -20px;
+    width: 290px;
+    padding: 10px;
+    opacity: 1 !important;
+    top: 45px;
+    box-shadow: 3px 3px 10px lightcoral;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-weight: 500;
+    animation-name: movein;
+    animation-duration: 1s;
+}
+.alert::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-bottom: solid 15px red;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+.alert button{
+    font-size: 13px;
+}
+@keyframes movein{
+    0%{
+        transform: translate(0px,20px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}

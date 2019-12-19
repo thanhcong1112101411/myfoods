@@ -1,0 +1,26 @@
+.content h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.content button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: red;
+    color: #ffffff;
+    border: 0;
+    box-shadow: 3px 3px 10px #eee;
+    border-radius: 3px;
+}
+.content .price{
+    color: red;
+    font-weight: 500;
+}
+.content span.price{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.content span.line{
+    color: gray;
+    text-decoration: line-through;
+    
+}

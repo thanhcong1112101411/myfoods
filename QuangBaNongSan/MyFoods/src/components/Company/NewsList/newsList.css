@@ -1,0 +1,11 @@
+.newsItem{
+    width: 70%;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 10px #eee;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.newsItem h2{
+    color: green;
+}

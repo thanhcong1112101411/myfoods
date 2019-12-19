@@ -1,0 +1,28 @@
+.account>div{
+    margin-bottom: 40px;
+}
+.Heading{
+    padding-bottom: 20px;
+}
+.contentInfo>div{
+    width: 80%;
+    margin-top: 20px;
+}
+.contentInfo span{
+    width: 30%;
+    display: inline-block;
+}
+.contentInfo input, .contentInfo select, .contentInfo textarea{
+    width: 70%;
+    display: inline;
+}
+.sex{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 70%;
+    padding-top: 30px;
+}
+    

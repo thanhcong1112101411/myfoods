@@ -1,0 +1,43 @@
+.LogoMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Menu{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.ListIcon{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+.MenuMin{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top: 60px;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+@media (max-width: 1086px){
+    .LogoMenu{
+        position: relative;
+    }
+    .Menu{
+        display: none;
+    }
+    .ListIcon{
+        display: block;
+    }
+}
+@media (min-width: 1086px){
+    .MenuMin{
+        display: none;
+    }
+}
+

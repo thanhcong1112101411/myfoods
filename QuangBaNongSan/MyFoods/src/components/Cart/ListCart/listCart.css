@@ -1,0 +1,15 @@
+.shadow{
+    box-shadow: 3px 3px 10px gray;
+}
+.bgColor{
+    background-color: #3b9f5e;
+}
+.iconDelete{
+    color: red;
+    border: 0;
+    background-color: #fff;
+}
+.iconDelete:hover{
+    font-size: 18px;
+    box-sizing: border-box;
+}

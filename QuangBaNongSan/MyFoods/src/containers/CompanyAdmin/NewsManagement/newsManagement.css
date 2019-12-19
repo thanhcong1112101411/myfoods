@@ -1,0 +1,19 @@
+.productManagement{
+    margin-top: 100px;
+}
+.btnAdd{
+    border: 0;
+    padding: 10px 25px;
+    background-color: green;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 3px;
+}
+.tabStyle a{
+    color: gray;
+    font-weight: 500;
+}
+.visible{
+    display: none;
+}

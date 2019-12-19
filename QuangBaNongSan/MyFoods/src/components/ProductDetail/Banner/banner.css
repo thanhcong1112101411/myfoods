@@ -1,0 +1,118 @@
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+.bannerContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 150px;
+}
+.bannerContent h1{
+    color: #3b9f5e;
+    font-weight: 900;
+    font-size: 80px;
+    text-shadow: 3px 3px 10px #b1e9c5;
+}
+.bannerContent>div{
+    width: 45%;
+}
+.bannerContent p{
+    color: #77838f;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.bannerContent p{
+    color: #ffffff;
+}
+.circleMain{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    right: 7%;
+    top: 20%;
+    box-shadow: 3px 3px 10px gray;
+    z-index: 100;
+}
+.circleMain img{
+    border-radius: 50%;
+    opacity: 1;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+.circleMain>div{
+    position: absolute;
+    border-radius: 50%;
+}
+.circleContent{
+    color: #fff;
+    padding: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+        
+    }
+.circleContent input{
+        width: 50%;
+        border-radius: 20px;
+        padding: 10px;
+        color: black;
+        border: 0;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #fff;
+        margin-top: 20px;
+}
+.circleSp{
+        z-index: -1;
+        box-shadow: 3px 3px 10px gray;
+    }
+    .circle1{
+        width: 200px;
+        height: 200px;
+        top: -30%;
+        left: -15%;
+    }
+    .circle2{
+        width: 230px;
+        height: 230px;
+        top: -20%;
+        right: -35%;
+    }
+    .circle3{
+        width: 100px;
+        height: 100px;
+        bottom: 5%;
+        right: -15%;
+    }
+    .circle4{
+        width: 150px;
+        height: 150px;
+        bottom: -25%;
+        left: -5%;
+    }
+    .circle5{
+        width: 180px;
+        height: 180px;
+        top: 30%;
+        left: -45%;
+    }
+    @keyframes move{
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(180deg);
+        }
+        50%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+    }

@@ -1,0 +1,31 @@
+.company{
+    margin-top: 30px;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px #eee;
+    padding: 10px;
+    width: 100%;
+}
+.companyLogo{
+    display: flex;
+    align-items: center;
+    
+}
+.company .heading{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.companyLogo .logo{
+    width: 100px;
+    margin-right: 10px;
+}
+.companyName{
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+}
+.detailContent{
+    display: flex;
+    flex-wrap: wrap;
+
+}

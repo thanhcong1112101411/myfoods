@@ -1,0 +1,24 @@
+.listNewsItem{
+    width: 70%;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px #eee;
+    margin: 10px auto;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.listNewsItem .companyInfStyle{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.listNewsItem a{
+    color: black;
+}
+.listNewsItem a:hover{
+    text-decoration: none;
+    color: black;
+}

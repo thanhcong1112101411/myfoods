@@ -1,0 +1,21 @@
+.feature{
+    background-image: url("../../../assets/images/banner/introduce.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.feature .icon{
+    color: darkgreen;
+    font-size: 28px;
+}
+.featureItem{
+    padding: 30px 23px;
+}
+.feature .content h1{
+    font-weight: 700;
+}
+.feature .content p{
+    color: #3b9f5e;
+    font-weight: 900;
+}

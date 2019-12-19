@@ -1,0 +1,29 @@
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid green;
+    margin-top: 30px;
+}
+.footer h1{
+    font-size: 40px;
+    color: green;
+    font-weight: 600;
+}
+.footer ul{
+    list-style:none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer a{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    color: grey;
+    font-weight: 500;
+}
+.footer a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    
+}

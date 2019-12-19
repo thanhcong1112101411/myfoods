@@ -1,0 +1,61 @@
+.banner{
+    position: relative;
+}
+.bannerContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 5%;
+}
+.bannerContent>div{
+    width: 45%;
+}
+.bannerContent p{
+    color: #77838f;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.bannerProductCont{
+    position: relative;
+}
+.bannerProduct{
+    padding-top: 150px;
+}
+.bannerProduct h1{
+    color: #ffffff;
+    text-shadow: 3px 3px 9px gray;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.bannerProductImg{
+    width: 400px;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+}
+.bannerProductImg .bg{
+    width: 50%;
+    padding: 10px;
+}
+.bannerProductImg>div img{
+    border: 5px solid #fff;
+    box-shadow: 5px 5px 10px #d6fae2;
+    border-radius: 5px;
+}
+.bannerProductImg>div img:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+.bannerProductImg .bgAbs{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: -10%;
+}
+.productPage{
+    height: 500px;
+}

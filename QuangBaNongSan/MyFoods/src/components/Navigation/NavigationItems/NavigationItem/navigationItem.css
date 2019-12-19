@@ -1,0 +1,38 @@
+.active{
+    color: red;
+}
+.Contact{
+    border: 0;
+    background-color: #3b9f5e;
+    color: #fff !important;
+}
+.NavigationItem{
+    font-size: 18px;
+}
+.NavigationItem a{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #77838f;
+    text-decoration: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.NavigationItem a:hover{
+    background-color: #3b9f5e;
+    color: #fff !important;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+@media (max-width: 1086px){
+    .NavigationItem a{
+        border-radius: 0px;
+        width: 100%;
+        display: inline-block;
+    }
+    .Contact{
+        background-color: #fff;
+        color: inherit;
+    }
+}

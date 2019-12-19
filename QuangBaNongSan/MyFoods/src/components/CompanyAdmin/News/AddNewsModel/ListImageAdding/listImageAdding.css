@@ -1,0 +1,21 @@
+.listImageStyle{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.listImageItem{
+    border: 1px solid #eee;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin-right: 5px;
+    box-shadow: 3px 3px 5px #eee;
+}
+.listImageItem p{
+    margin-right: 10px;
+}
+.listImageItem span{
+    color: red;
+    background-color: #fff;
+    border: 0;
+}

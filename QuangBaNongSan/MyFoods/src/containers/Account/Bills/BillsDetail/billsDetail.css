@@ -1,0 +1,27 @@
+.content{
+    position: fixed;
+    z-index: 1001;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    padding: 30px;
+    width: 70%;
+    max-height: 60%;
+    overflow-y: scroll;
+    transform: translate(-50%, -50%);
+}
+.content::-webkit-scrollbar{
+    width: 3px;
+    background-color: #F5F5F5;
+}
+.content::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+}
+.Heading{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer{
+    display: flex;
+    justify-content: flex-end;
+}
